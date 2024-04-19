@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.top {
+	margin-top: 40px;
+	
+	
+}
+
+.header {
+padding-top:11px ;
+padding-bottom: 12px;
+}
+
+.header__logo{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header__link {
+	margin-left: 20px;
+}
+
+.top__content{
+	margin-top: 84px;
+	margin-bottom: 162px;
+}
+
+
+
+.top__info {
+	margin-left: 41px;
+	
+}
+
+.top__foto {
+	margin-left: 41px;
+}
+
+.title {
+	margin-bottom: 17px;
+}
+
+.text {
+	margin-bottom: 37px;
+
+}
+
+.top__buttons {
+	margin-bottom: 162px;
+}
+
+.button{
+	margin-right: 72px;
+}
+
+.link__video {
+	margin-bottom: 178px;
+
+}
+
+
+
+.top__logo {
+	margin-top: 97px;
+	margin-bottom: 96px;
+}
+
+.logo{
+	margin-left: 48px;
+
+}

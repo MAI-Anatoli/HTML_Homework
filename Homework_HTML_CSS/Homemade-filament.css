@@ -1,0 +1,94 @@
+body{
+	background-color:rgb(31, 19, 19);
+}
+h1{
+	color: #09e131;
+	font-size: 50pt;
+margin: 30px;
+padding: 10px;
+font-style: italic;
+}
+
+h2{
+	color: #09e131;
+	font-size: 30pt;
+	font-style: italic;
+}
+
+ul{
+font-size: 20pt;
+color: #e1e109;
+}
+
+p{
+	color: rgb(188, 127, 13);
+	font-size: 20pt;
+	font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+}
+em{
+	font-size: 20pt;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.tablita{
+	height: 300px;
+	margin: 15px;
+	padding: 0px;
+	border-radius: 30px ;
+	border: 30px ridge #e60606;
+}
+.machine1{
+	height: 300px;
+	margin: 10px;
+	border: 20px inset gold;
+	border-radius: 20px;
+}
+
+.machine2{
+	height: 300px;
+	margin: 10px;
+	border: 20px inset gold;
+	border-radius: 20px;
+}
+.ub1{
+height: 300px;
+margin: 10px;
+border: 20px inset green;
+border-radius: 20px;
+
+}
+
+.ub2{
+height: 300px;
+margin: 10px;
+border: 20px inset green;
+border-radius: 20px;
+
+}
+
+.ub3{
+height: 300px;
+margin: 10px;
+border: 20px inset green;
+border-radius: 20px;
+
+}
+
+.finish{
+	color: #14e109;
+	font-size: 30pt;
+
+}
+
+.tiktok{
+	color: red;
+	font-style: bold;
+}
+
+.footer{
+	color: #090403;
+}

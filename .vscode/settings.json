@@ -2,5 +2,6 @@
   "cSpell.words": ["интузиастов"],
   "files.autoSave": "afterDelay",
   "editor.fontSize": 18,
-  "ecsstractor_port.comment_style": "scss"
+  "ecsstractor_port.comment_style": "scss",
+  "liveServer.settings.port": 5501
 }

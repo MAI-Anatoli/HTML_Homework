@@ -3,9 +3,13 @@
     margin: 0px;
 }
 
+body{
+    font-family: "Lato", sans-serif;
+}
+
 .center{
-    /*padding-left: calc(50% - 800px);*/
-    /*padding-right: calc(50% - 800px);*/
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .top{
@@ -41,6 +45,8 @@
 .main__section{
     background: rgb(241, 228, 230);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 63px;
 }
 .main__img{
@@ -50,4 +56,109 @@
 .main__title{
     padding-top: 290px;
     padding-bottom: 382px;
+}
+
+.section__menu{
+    padding-top: 65px;
+    padding-bottom: 96px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 360px);
+
+}
+
+/*.item1{}*/
+
+/*.item2{}*/
+
+/*.item3{}*/
+
+/*.item4{}*/
+
+
+.products{
+    padding-bottom: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+}
+
+.title{
+    display: grid;
+    justify-items: center;
+    grid-column: span 3;
+
+}
+
+.products__title{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(34, 34, 34);
+
+}
+
+.products__text{
+    padding-top: 6px;
+    padding-bottom: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(159, 159, 159);
+
+}
+
+/*.item{}*/
+
+/*.item__img{}*/
+
+.price{
+    padding: 24px 16px;
+}
+
+.price__title{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.price__text{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 314px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: rgb(93, 93, 93);
+
+
+}
+
+.price__price{
+    color: rgb(241, 109, 127);
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.bt__all{
+    display: grid;
+    grid-column: span 3;
+    justify-content: center;
+}
+
+.products__bt{
+    border: 1px solid rgb(255, 106, 106);
+    padding: 15px 39px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgb(242, 99, 118);
+    justify-items: center;
 }
